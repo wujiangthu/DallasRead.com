@@ -1,3 +1,4 @@
-Options +FollowSymlinks
+Options +FollowSymLinks
 RewriteEngine on
-RewriteRule ^([0-9]+)$ post.php?file=$1
+RewriteRule posts/(.*)/ post.php?file=$1.rdr
+RewriteRule posts/(.*) post.php?file=$1.rdr

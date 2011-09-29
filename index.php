@@ -20,7 +20,7 @@
 		<?
 			foreach ($posts as $post)
 			{
-				echo "<li><a href=\"post.php?file=" . $post["url"] . "\">" . $post["title"] . "</a></li>";
+				echo "<li><a href=\"posts/" . str_replace(".rdr", "", $post["url"]) . "\">" . $post["title"] . "</a></li>";
 			}
 		?>
 	</ul>
