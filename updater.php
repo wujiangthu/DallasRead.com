@@ -10,7 +10,7 @@
 	
 	function update()
 	{
-		$dir = "posts";
+		$dir = "posts/published/";
 		$file = "posts.rdr";
 		$posts = scandir($dir, 0);
 		$index = $dir . "/" . $file;
@@ -20,8 +20,8 @@
 		{
 			if ($post != ".." && $post != ".")
 			{
-				$lined_content = file("posts/" . $post);
-				$content = file_get_contents("posts/" . $post);
+				$lined_content = file($dir . $post);
+				$content = file_get_contents($dir . $post);
 				$title = str_replace($rid, "", $lined_content[0]);
 				$date = str_replace($rid, "", $lined_content[1]);
 				$url = $post;
