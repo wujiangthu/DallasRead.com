@@ -14,6 +14,7 @@
 <body>
 	
 	<h1>DallasRead.com</h1>
+	<p>Follow <a href="http://www.twitter.com/dallasread">@dallasread</a> on Twitter</p>
 	<ul>
 		<?
 			foreach ($posts as $post)
