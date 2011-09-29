@@ -3,13 +3,29 @@ body {
 	font-size: .9em;
 }
 
+.container {
+	width: 35em;
+	margin: 0 auto;
+}
+
 .post {
 	white-space: pre-wrap;
-	width: 32em;
 	line-height: 1.7em; 
 }
 
 .indent {
 	display: block;
-	margin: 0 0 0 30px;
+	margin: 0 0 0 15px;
+	border-left: 3px solid #ddd;
+	padding-left: 25px;
+}
+
+h1 {
+	text-align: center;
+}
+
+strong {
+	font-size: 1.2em;
+	padding-bottom: .4em;
+	display: inline-block;
 }

@@ -50,13 +50,15 @@
 	{
 		$line_split = split(" \| ", $posts[$i]);
 		$posts[$i] = array();
+		$posts[$i]["rawdate"] = strtotime($line_split[1]);
+		$posts[$i]["date"] = date("M d, Y", strtotime($line_split[1]));
 		$posts[$i]["title"] = $line_split[0];
-		$posts[$i]["date"] = $line_split[1];
 		$posts[$i]["location"] = $line_split[2];
 		$posts[$i]["tags"] = $line_split[3];
 		$posts[$i]["author"] = $line_split[4];
 		$posts[$i]["tease"] = $line_split[5];
 		$posts[$i]["url"] = $line_split[6];
 	}
+	sort($posts)
 
 ?>

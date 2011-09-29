@@ -26,9 +26,13 @@
 
 <body>
 	
-	<h1>DallasRead.com</h1>
-	<a href="../"><< Home</a>
-	<p class="post"><? echo $post; ?></p>
+	<div class="container">
+		
+		<h1>DallasRead.com</h1>
+		<a href="../"><< Home</a>
+		<p class="post"><? echo $post; ?></p>
+		
+	</div>
 	
 </body>
 
