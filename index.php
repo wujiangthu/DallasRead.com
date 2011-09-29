@@ -25,6 +25,8 @@
 		?>
 	</ul>
 	
+	Thanks for visiting.
+	
 </body>
 
 </html>
