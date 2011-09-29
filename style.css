@@ -1,11 +1,11 @@
 body {
 	font-family: Helvetica, Arial, Sans Serif;
 	font-size: .9em;
+	width: 36em;
+	margin: 0 auto;
 }
 
 .container {
-	width: 35em;
-	margin: 0 auto;
 	padding: 0 1em;
 }
 
