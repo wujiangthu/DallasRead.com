@@ -6,6 +6,7 @@ body {
 .container {
 	width: 35em;
 	margin: 0 auto;
+	padding: 0 1em;
 }
 
 .post {
